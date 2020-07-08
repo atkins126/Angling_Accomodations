@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/07/03 13:49:46.856.dproj,E:\programming 2020\Angling accommodations\Pat_P.dproj=E:\programming 2020\Angling accommodations\AnglingAccomodations.dproj</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Admin.pas"/>
+    <File Path="Admin.dfm"/>
+    <File Path="Bookings.pas"/>
+    <File Path="Lessee.pas"/>
+    <File Path="Lessee.dfm"/>
+    <File Path="Lessor.pas"/>
+    <File Path="Lessor.dfm"/>
+    <File Path="Login.pas"/>
+    <File Path="Login.dfm"/>
+    <File Path="Manager.pas"/>
+    <File Path="Manager.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
