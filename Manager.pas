@@ -719,7 +719,7 @@ begin
       [iLodge, 5] + #13 + 'Number of people the lodge can acomidate: ' + Lodging
       [iLodge, 6] + #13 + 'Price per night(R): ' + Lodging[iLodge, 7] + #13 +
       'Price of housekeeping(R): ' + Lodging[iLodge, 8] + #13 +
-      'Pirceof guide(R): ' + Lodging[iLodge, 9] + #13 + #13);
+      'Pirce of guide(R): ' + Lodging[iLodge, 9] + #13 + #13);
 
   adoQryBookings.Close;
   adoQryBookings.SQL.Text :=
@@ -814,9 +814,9 @@ begin
   adoQryBookings.Close;
   adoQryBookings.SQL.Text := 'INSERT INTO tblBooking ' +
     '(LesseeUser, LessorUser, StartOfBooking, EndOfBooking, GuideSelected)' +
-    ' VALUES (''' + strUsernameEn + ''', ''' + Booking.GetLessorUser + ''', ' +
-    datetostr(DtTmPckrFirstDay.DateTime) + ', ' + datetostr
-    (DtTmPckrLastDay.DateTime) + ', ' + booltostr(ChckBxGuide.Checked) + ')';
+    ' VALUES (''' + strUsernameEn + ''', ''' + Booking.GetLessorUser + ''', #' +
+    datetostr(DtTmPckrFirstDay.DateTime) + '#, #' + datetostr
+    (DtTmPckrLastDay.DateTime) + '#, ' + booltostr(ChckBxGuide.Checked) + ')';
   adoQryBookings.ExecSQL;
 
   Booking.Free;
