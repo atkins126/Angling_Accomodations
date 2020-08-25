@@ -2,7 +2,8 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2020/07/03 13:49:46.856.dproj,E:\programming 2020\Angling accommodations\Pat_P.dproj=E:\programming 2020\Angling accommodations\AnglingAccomodations.dproj</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="Admin.pas"/>
     <File Path="Admin.dfm"/>
     <File Path="Bookings.pas"/>
