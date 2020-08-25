@@ -152,7 +152,7 @@ begin
     Parent := FrmLessee;
     Items.Add('Lodge name');
     Items.Add('Fishing type');
-    Items.Add('PLocation');
+    Items.Add('Location');
   end;
 
   bSearched := false;
